@@ -1,0 +1,23 @@
+{
+    "name": "oxidmodule/oxid_pwconditions",
+    "version": "1.5.1",
+    "description": "JS-Prüfung der Passwortstärke",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+
+    "extra": {
+        "oxideshop": {
+            "target-directory": "oxidmodule/pwconditions"
+        }
+    },
+
+    "require": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Oxidmodule\\PwConditions\\": "../../../source/modules/oxidmodule/pwconditions"
+        }
+    }
+
+}
